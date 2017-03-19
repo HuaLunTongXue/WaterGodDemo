@@ -1,0 +1,60 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/kevin_zhuang/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"WaterDispenser-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "WaterDispenser",
+			"buildCommand" : "/Users/kevin_zhuang/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/x86 --target WaterDispenser",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/platforms/android-14/arch-x86  -DWaterDispenser_EXPORTS -isystem /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/platforms/android-14/arch-x86 -DWaterDispenser_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/src/main/cpp/pthread_resolveData.c",
+					"workingDirectory" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/platforms/android-14/arch-x86 -DWaterDispenser_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/src/main/cpp/serialPort.c",
+					"workingDirectory" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/platforms/android-14/arch-x86 -DWaterDispenser_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/src/main/cpp/main.c",
+					"workingDirectory" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/build/intermediates/cmake/release/obj/x86/libWaterDispenser.so",
+			"toolchain" : "899111528829654757"
+		}
+	},
+	"toolchains" : 
+	{
+		"899111528829654757" : 
+		{
+			"cCompilerExecutable" : "/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

@@ -1,0 +1,60 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/kevin_zhuang/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"WaterDispenser-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "WaterDispenser",
+			"buildCommand" : "/Users/kevin_zhuang/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/armeabi --target WaterDispenser",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/platforms/android-14/arch-arm  -DWaterDispenser_EXPORTS -isystem /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/platforms/android-14/arch-arm -DWaterDispenser_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/src/main/cpp/pthread_resolveData.c",
+					"workingDirectory" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/platforms/android-14/arch-arm -DWaterDispenser_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/src/main/cpp/serialPort.c",
+					"workingDirectory" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/armeabi"
+				},
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/platforms/android-14/arch-arm -DWaterDispenser_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/src/main/cpp/main.c",
+					"workingDirectory" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/kevin_zhuang/AndroidStudioProjects/WaterGodDemo/app/build/intermediates/cmake/release/obj/armeabi/libWaterDispenser.so",
+			"toolchain" : "899111528829654757"
+		}
+	},
+	"toolchains" : 
+	{
+		"899111528829654757" : 
+		{
+			"cCompilerExecutable" : "/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/kevin_zhuang/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
